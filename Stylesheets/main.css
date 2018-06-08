@@ -63,6 +63,11 @@ nav ul li a:visited:hover {
   margin: auto;
 }
 
+.container__wide {
+  max-width: 1200px;
+  margin: auto;
+}
+
 footer {
   height: 80px;
   background-color: black;

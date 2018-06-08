@@ -1,5 +1,10 @@
-h1 {
+* {
+  margin:0;
+  padding:0;
+}
 
+.introduction-container {
+    /* background-color: #F7F7F7; */
 }
 
 .introduction {
@@ -7,14 +12,23 @@ h1 {
   margin: 70px 20px;
 }
 
+.header-container {
+  padding: 0px 20px;
+}
+
 .google-blue {color: #4285F4;}
 .google-red {color: #EA4335;}
 .google-yellow {color: #FBBC05;}
 .google-green {color: #34A853;}
+
+.background {
+  /* background-color: #F7F7F7; */
+}
 
 .project-container {
   border-style: solid;
   min-height: 300px;
   padding: 10px 10px;
   margin: 20px 20px;
+  background-color: white;
 }
