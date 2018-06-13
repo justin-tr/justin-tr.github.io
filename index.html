@@ -6,28 +6,22 @@
 
   <title>Justin Tran</title>
 
-  <link rel="stylesheet" type="text/css" href="Stylesheets/main.css">
-  <link rel="stylesheet" type="text/css" href="Stylesheets/home.css">
-  <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+  <link rel="stylesheet" href="Stylesheets/main.css">
+  <link rel="stylesheet" href="Stylesheets/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+    $(function(){
+      $("#navigation-bar").load("navigation-bar.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
 </head>
 <body>
   <!--Navigation Bar-->
   <header>
-    <nav>
-      <div class="header-footer-container">
-        <ul class="nav-list">
-          <li class="left">
-            <a href="index.html" id="home-button">Justin Tran</a>
-          </li>
-          <li class="right">
-            <a href="about.html">About</a>
-          </li>
-          <li class="right">
-            <a href="index.html">Work</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div id="navigation-bar">
+    </div>
   </header>
   <!--Introduction-->
 
@@ -42,25 +36,28 @@
   <div class="background">
     <section class="container">
       <h1 class="header-container">Featured Projects</h1>
-      <section class="project-container">
-        <h2>UW Community Pillar</h2>
-        <p>A pillar designed to foster a sense of community and to spark reflection on why we’re all at the university.</p>
-      </section>
-      <section class="project-container">
-        <h2>Phrasebot</h2>
-        <p>A location-based language and cultural assistant designed to aid new immigrants in overcoming language and cultural barriers.</p>
-      </section>
-      <section class="project-container">
-        <h2>Arque</h2>
-        <p>A website for parents of elementary school children to find a community of similar parents, where they can exchange resources, track and share goal progress, and share experiences with other parents.</p>
-      </section>
+      <a href="pillar.html">
+        <section class="project-container">
+          <h2>UW Community Pillar</h2>
+          <p>A pillar designed to foster a sense of community and to spark reflection on why we’re all at the university.</p>
+        </section>
+      </a>
+      <a href="phrasebot.html">
+        <section class="project-container">
+          <h2>Phrasebot</h2>
+          <p>A location-based language and cultural assistant designed to aid new immigrants in overcoming language and cultural barriers.</p>
+        </section>
+      </a>
+      <a href="arque.html">
+        <section class="project-container">
+          <h2>Arque</h2>
+          <p>A website for parents of elementary school children to find a community of similar parents, where they can exchange resources, track and share goal progress, and share experiences with other parents.</p>
+        </section>
+      </a>
     </section>
   </div>
-  <footer>
-    <div class="header-footer-container footer-text">
-      <div id="copyright">© Justin Tran <script type="text/javascript">document.write(new Date().getFullYear());</script></div>
-      <div id="footer-comment">Developed by Justin Tran</div>
-    </div>
-  </footer>
+  <!--Footer-->
+  <div id="footer">
+  </div>
 </body>
 </html>

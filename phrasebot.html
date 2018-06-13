@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Phrasebot - Justin Tran</title>
+
+  <link rel="stylesheet" href="Stylesheets/main.css">
+  <link rel="stylesheet" href="Stylesheets/phrasebot.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+  $(function(){
+    $("#navigation-bar").load("navigation-bar.html");
+    $("#footer").load("footer.html");
+  });
+  </script>
+</head>
+<body>
+  <!--Navigation Bar-->
+  <header>
+    <div id="navigation-bar">
+    </div>
+  </header>
+  <article class="container">
+    <h1>Phrasebot</h1>
+    <img src="Images/phrasebot/phrasebot-cover.png" alt="Phrasebot Cover Photo">
+    <p>Duration: 3 Months</p>
+    <p>Project Type: Class Project</p>
+    <p>Team Members: Hannah Hertzog & me</p>
+    <p>My Role: UX Designer & Researcher</p>
+    <p>Tools: Illustrator, Marvel</p>
+    <p>Skills: Ideation/Sketching, Interviews, Surveys, Storyboards, Paper Prototypes, Heuristics Evaluation, Usability Testing, Digital Mockup</p>
+    <p>Phrasebot is a location-based language and cultural assistant designed for immigrants new to the US. It gives users relevant English phrases to say and cultural etiquette tips depending on where they are. It's designed to ease the transition for immigrants to a new country. The app also provides a message board for users to ask for help.</p>
+    <section>
+      <h2>Problem Space</h2>
+      <p>A survey conducted in 2015 found that among immigrants age 5 and older, <a href="http://www.pewresearch.org/fact-tank/2017/05/03/key-findings-about-u-s-immigrants/">only about half (51%)</a> consider themselves proficient English speakers. While there are resources for people to learn English, immigrants new to the US don't always have the time to learn, and for those who do, there might be situations where they need to say something in English that they haven't learned yet. Having trouble communicating can make many daily tasks and interactions much more difficult. A study on language barriers on restaurant experiences found that for ESL customers, language barriers can <a href="https://scholarworks.umass.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1175&context=gradconf_hospitality">generate negative emotional and cognitive responses</a>, while also preventing ESL customers from taking certain actions like seeking necessary information or complaining about service failures. Language barriers also affect treatment and the quality of healthcare received. Patients with language barriers face difficulty with healthcare access, patient satisfaction and experience, as well as disparities in care between English proficient patients and those facing language barriers. In addition to that, those with language barriers also face increase risks of medication errors and complications <a href="https://santefrancais.ca/wp-content/uploads/SSF-Bowen-S.-Language-Barriers-Study.pdf">(source)</a>.</p>
+    </section>
+    <section>
+      <h2>Goal</h2>
+      <p>Because language barriers can make daily tasks and interactions in restaurant, healthcare, or emergency situations much more difficult, we wanted to focus on helping new immigrants during the communication process.</p>
+    </section>
+    <section>
+      <h2>Research</h2>
+      <p>Hannah and I each interviewed three different immigrants who were fairly new to the US. Through interviews, we identified many different pain points when communicating in English.</p>
+      <h3>Pain Points</h3>
+      <ul>
+        <li>knowing the right phrases to say</li>
+        <li>comprehending English at different talking speeds</li>
+        <li>communicating over the phone</li>
+        <li>understanding tipping and other cultural customs</li>
+        <li>seeking medical help</li>
+        <li>getting advice from others immigrants about certain situations</li>
+      </ul>
+      <h3>Task Development</h3>
+      <p>Using our research, we came up with 6 different tasks ranging from easy to hard that we discovered were common from our user research. We also created personas based on our interview participants to help demonstrate our tasks.</p>
+      <img src="Images/phrasebot/tasks-review-1.png" alt="Task Review Page 1">
+      <img src="Images/phrasebot/tasks-review-2.png" alt="Task Review Page 2">
+    </section>
+    <section>
+      <h2>Design Sketches & Ideas</h2>
+      <p>Here are some of my sketches for potential solutions during our ideation phase:</p>
+      <img src="Images/phrasebot/design-sketches.png" alt="Design Sketches">
+      <p>We came up with different solutions that would address the 6 tasks, but in the end, we decided on a smartphone app for a context based language assistant. It would provide relevant phrases and etiquette tips based on the user's location. It would also allow users to ask each other for help. We also included a feature to allow users to rate restaurants and businesses based on their accessibility.</p>
+      <h2>Paper Prototype</h2>
+      <p>We made a paper prototype that we conducted our usability testing with. We focused on creating features that would aid our users in completing our 6 tasks.</p>
+      <img src="Images/phrasebot/paper-prototype.jpg" alt="Paper Prototype">
+      <h3>Task 1: Looking up unfamiliar English words</h3>
+      <p>To allow our users to look up words, we included a search tab for words and phrases. It also lets the user search through our etiquette tips.</p>
+      <h3>Task 2: Tipping at restaurants</h3>
+      <p>To help our users with tipping and other American customs, I designed our home page that brings up relevant etiquette information based on the users location. At a restaurant, it would provide information on how to tip and other dining etiquette.</p>
+      <h3>Task 3: Speaking in English on the phone</h3>
+      <p>To make phone calls easier for our users, I designed a live transcription feature that runs during phone calls and transcribes what's being said. Our research participants indicated that they sometimes had difficultly understanding people during telephone calls, especially because it relies completely on verbal communication, unlike in-person conversations, where people can also communicate with body language and facial expressions. To address privacy concerns, our transcription feature would never store anything it transcribes.</p>
+      <h3>Task 4: Conversation with someone speaking really fast</h3>
+      <p>Our live transcription feature would also help with this. Users would be able to see a transcription of what was said if they didn't catch it the first time.</p>
+      <h3>Task 5: Dealing with an emergency situation in English</h3>
+      <p>To help with emergency situations, our users would be able to search for tips with our search tab. We'd also include a resource on what to say in certain situations. The live transcriptions would also be helpful when making 911 calls.</p>
+      <h3>Task 6: Finding housing</h3>
+      <p>To help with housing and other similar issues, Hannah designed our message board, where our users could ask others for help with finding and applying for housing. They'd also be able to ask help about any other situations.</p>
+    </section>
+    <section>
+      <h2>Usability Testing</h2>
+      <p>We conducting usability tests on to find issues and difficulties our participants had with our initial paper prototype. We told participants to complete 3 different tasks and had them explain difficulties they had with completing them.</p>
+      <h3>Key Insights</h3>
+      <ul>
+        <li>The tab icons weren't clear on what they represented. We also needed to include labels underneath.</li>
+        <li>Some participants wanted to preview contextual information for different locations and situations.</li>
+        <li>Participants also thought it would be helpful if other users could comment on or add to our informational pages.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Digital Prototype</h2>
+      <p>To address the issues we discovered from our usability testing, we labeled our tabs and added a map tab, where users could preview the contextual information at certain locations to prepare themselves. It also allows users to leave reviews and helpful information for other users about accessibility at those locations. We also allowed users to make comments on our information pages. For our digital prototype, we designed some alternative pages in Korean as an example of what our product would look like in different languages.</p>
+      <div class="screens">
+        <img src="Images/phrasebot/screen-1.jpg" alt="Screen 1">
+        <img src="Images/phrasebot/screen-2.jpg" alt="Screen 2">
+        <img src="Images/phrasebot/screen-3.jpg" alt="Screen 3">
+        <img src="Images/phrasebot/screen-4.jpg" alt="Screen 4">
+        <img src="Images/phrasebot/screen-5.jpg" alt="Screen 5">
+      </div>
+    </section>
+    <section>
+      <h2>Reflection</h2>
+      <p>Through our user research and usability testing, we learned many things that we wouldn't have figured out on our own. We realized that there was also a need for customs and etiquette information for immigrants new to the US. Things like figuring out how to tip or how to apply for housing were difficult because of cultural differences. Through our usability testing, we made improvements to our interface to make it more intuitive and easier to navigate. If we had more time, I'd work on making the interface more visually appealing and conducting more usability testing to make our solution even more effective.</p>
+    </section>
+  </article>
+  <!--Footer-->
+  <div id="footer">
+  </div>
+</body>
+</html>
