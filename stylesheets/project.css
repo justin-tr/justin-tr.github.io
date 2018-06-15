@@ -18,6 +18,11 @@ figure {
   /* width: 100%; */
 }
 
+figcaption {
+  display: table-row;
+  text-align: center;
+}
+
 .project-image {
   /* vertical-align: middle; */
   padding: 13px;
@@ -26,4 +31,9 @@ figure {
 
 .project-image img {
   max-width: 100%;
+}
+
+.project-image__group {
+  display: flex;
+  justify-content: center;
 }
