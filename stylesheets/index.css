@@ -19,7 +19,7 @@
 
 .introduction {
   font-size: 1.5em;
-  margin-bottom: 20vh;
+  margin-bottom: 22vh;
   padding: 0 40px;
   max-width: 800px;
 }
@@ -37,13 +37,14 @@ h1 {
 .google-yellow {color: #FBBC05;}
 .google-green {color: #34A853;}
 
-.background {
-  /* background-color: #F7F7F7; */
-}
-
 .project-container {
-  border-style: solid;
-  min-height: 300px;
+  /* min-height: 300px; */
   /* padding: 10px 10px;
   margin: 20px 20px; */
+}
+
+#pillar {
+  background-image: url("/images/pillar/uw-columns.jpg");
+  background-repeat: round;
+  background-color: #98BEDB;
 }
