@@ -17,7 +17,6 @@ html {
 .navigation-bar {
   height: 60px;
   width: 100%;
-  /* background: black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,6 +51,10 @@ html {
 .container {
   max-width: 800px;
   margin: auto;
+}
+
+h1 {
+  font-family: 'Song Myung', serif;
 }
 
 #page-footer {
