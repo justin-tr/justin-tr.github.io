@@ -1,0 +1,25 @@
+p, h1, h2, h3, h4, h5, h6, ul {
+  max-width: 700px;
+  margin: auto;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 5px;
+}
+
+figure {
+  max-width: 1000px;
+  margin: auto;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
+}
+
+img {
+  display: float;
+  width: 20%;
+  /* max-width: 100%; */
+  object-fit: contain;
+}
