@@ -9,8 +9,12 @@ html {
   font-family: avenir;
 }
 
-.header-footer-container {
+.website-container {
   width: 1000px;
+  margin: auto;
+}
+
+.header-footer-container {
   margin: 0 15px;
 }
 

@@ -1,0 +1,22 @@
+h1, h2 {
+  text-align: center;
+}
+
+.work-container {
+  width: 75%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work-item {
+  width: 400px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.project-cover {
+  width: 100%;
+}

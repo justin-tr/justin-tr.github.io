@@ -3,12 +3,6 @@
   padding:0;
 }
 
-.page-container {
-  height: calc(100vh + 60px);
-  /* display: flex;
-  align-items: center; */
-}
-
 .intro-container {
   height: calc(100vh - 50px);
   display: flex;
@@ -24,27 +18,77 @@
   max-width: 800px;
 }
 
-h1 {
-  font-family: 'Song Myung', serif;
-}
-
-.header-container {
-  text-align: center;
-}
-
 .google-blue {color: #4285F4;}
 .google-red {color: #EA4335;}
 .google-yellow {color: #FBBC05;}
 .google-green {color: #34A853;}
 
+h1 {
+  font-family: 'Song Myung', serif;
+}
+
+.header-container {
+  visibility: hidden;
+  text-align: center;
+}
+
+.project {
+  height: calc(100vh + 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .project-container {
-  /* min-height: 300px; */
-  /* padding: 10px 10px;
-  margin: 20px 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-text h2 {
+  font-size: 3em;
+  color: white;
+}
+
+.project-text__description {
+  width: 400px;
+  color: white;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.project-button {
+  background-color: white;
+  width: 200px;
+  border-radius: 50px;
+  padding: 20px 30px;
+  margin: 17px 0;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 500;
+  color: #555555;
+  letter-spacing: 1.5px;
+  transition-duration: .9s;
+}
+
+.project-button:hover {
+  transition-duration: .9s;
+  background-color: #EBEBEB;
 }
 
 #pillar {
   background-image: url("/images/pillar/uw-columns.jpg");
-  background-repeat: round;
+  background-size: cover;
+  background-position: center;
   background-color: #98BEDB;
+}
+
+#phrasebot {
+  background-color: #06B579;
+}
+
+#arque {
+  background-color: #1155CC;
 }
