@@ -15,6 +15,12 @@ h1, h2 {
   width: 400px;
   margin: 10px 0;
   text-align: center;
+  transition-duration: .5s;
+}
+
+.work-item:hover {
+  opacity: 0.5;
+  transition-duration: .5s;
 }
 
 .project-cover {
