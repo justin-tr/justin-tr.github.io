@@ -2,8 +2,12 @@ h1, h2 {
   text-align: center;
 }
 
+a, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .work-container {
-  width: 75%;
   max-width: 1000px;
   margin: auto;
   display: flex;
@@ -13,7 +17,7 @@ h1, h2 {
 
 .work-item {
   width: 400px;
-  margin: 10px 0;
+  margin: 5px 5px;
   text-align: center;
   transition-duration: .5s;
 }
@@ -25,4 +29,6 @@ h1, h2 {
 
 .project-cover {
   width: 100%;
+  max-height: 300px;
+  object-fit: contain;
 }
