@@ -92,3 +92,15 @@ h1 {
 #arque {
   background-color: #1155CC;
 }
+
+.all-projects-button {
+  color: white;
+  background-color: black;
+  margin: 50px auto;
+  transition-duration: .9s;
+}
+
+.all-projects-button:hover {
+  transition-duration: .9s;
+  background-color: #777777;
+}
